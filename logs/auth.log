@@ -1,0 +1,60 @@
+2026-01-26T12:25:21.038793+05:30 rudraksh-VirtualBox sshd[6473]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2026-01-26T12:25:22.663519+05:30 rudraksh-VirtualBox sshd[6473]: Failed password for invalid user admin from 10.0.2.15 port 60062 ssh2
+2026-01-26T12:25:26.488817+05:30 rudraksh-VirtualBox sshd[6473]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-26T12:25:28.467787+05:30 rudraksh-VirtualBox sshd[6473]: Failed password for invalid user admin from 10.0.2.15 port 60062 ssh2
+2026-01-26T12:25:31.384267+05:30 rudraksh-VirtualBox sshd[6473]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-26T12:25:33.718793+05:30 rudraksh-VirtualBox sshd[6473]: Failed password for invalid user admin from 10.0.2.15 port 60062 ssh2
+2026-01-26T12:25:34.299603+05:30 rudraksh-VirtualBox sshd[6473]: Connection closed by invalid user admin 10.0.2.15 port 60062 [preauth]
+2026-01-26T12:25:34.299673+05:30 rudraksh-VirtualBox sshd[6473]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.15 
+2026-01-26T12:25:42.348180+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-01-26T12:25:42.349242+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:25:42.357216+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:26:37.239443+05:30 rudraksh-VirtualBox sshd[6489]: Accepted password for rudraksh from 10.0.2.15 port 35216 ssh2
+2026-01-26T12:26:37.244292+05:30 rudraksh-VirtualBox sshd[6489]: pam_unix(sshd:session): session opened for user rudraksh(uid=1000) by rudraksh(uid=0)
+2026-01-26T12:26:37.255664+05:30 rudraksh-VirtualBox systemd-logind[937]: New session 10 of user rudraksh.
+2026-01-26T12:26:49.417554+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/1 ; PWD=/home/rudraksh ; USER=root ; COMMAND=/usr/bin/su
+2026-01-26T12:26:49.421937+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:26:49.430714+05:30 rudraksh-VirtualBox su[6547]: (to root) root on pts/2
+2026-01-26T12:26:49.432296+05:30 rudraksh-VirtualBox su[6547]: pam_unix(su:session): session opened for user root(uid=0) by rudraksh(uid=0)
+2026-01-26T12:27:14.794570+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-01-26T12:27:14.795330+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:27:14.801189+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:28:41.860064+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-01-26T12:28:41.862064+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:28:41.871431+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:29:43.641187+05:30 rudraksh-VirtualBox sshd[6564]: Accepted password for rudraksh from 10.0.2.15 port 37104 ssh2
+2026-01-26T12:29:43.644528+05:30 rudraksh-VirtualBox sshd[6564]: pam_unix(sshd:session): session opened for user rudraksh(uid=1000) by rudraksh(uid=0)
+2026-01-26T12:29:43.651400+05:30 rudraksh-VirtualBox systemd-logind[937]: New session 11 of user rudraksh.
+2026-01-26T12:30:01.954063+05:30 rudraksh-VirtualBox CRON[6620]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T12:30:01.956702+05:30 rudraksh-VirtualBox CRON[6620]: pam_unix(cron:session): session closed for user root
+2026-01-26T12:30:11.576617+05:30 rudraksh-VirtualBox sshd[6625]: Accepted password for rudraksh from 10.0.2.15 port 59510 ssh2
+2026-01-26T12:30:11.582410+05:30 rudraksh-VirtualBox sshd[6625]: pam_unix(sshd:session): session opened for user rudraksh(uid=1000) by rudraksh(uid=0)
+2026-01-26T12:30:11.587556+05:30 rudraksh-VirtualBox systemd-logind[937]: New session 13 of user rudraksh.
+2026-01-26T12:30:22.986743+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-01-26T12:30:22.988116+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:30:22.992846+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:31:07.002960+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/apt install acct -y
+2026-01-26T12:31:07.010839+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:31:16.481832+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:31:54.551755+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl start acct
+2026-01-26T12:31:54.553962+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:31:54.562952+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:32:38.266856+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/syslog
+2026-01-26T12:32:38.268449+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:32:38.273598+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:32:50.953612+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/faillog
+2026-01-26T12:32:50.955755+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:32:50.960129+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:33:03.801745+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/wtmp
+2026-01-26T12:33:03.806045+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:33:03.842684+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:33:12.012610+05:30 rudraksh-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:33:12.017715+05:30 rudraksh-VirtualBox pkexec[7263]: rudraksh: Executing command [USER=root] [TTY=unknown] [CWD=/home/rudraksh] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-01-26T12:33:28.221206+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2026-01-26T12:33:28.225960+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:33:28.230202+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:34:05.039263+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
+2026-01-26T12:34:05.040075+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
+2026-01-26T12:34:05.044086+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T12:34:19.952110+05:30 rudraksh-VirtualBox sudo: rudraksh : TTY=pts/0 ; PWD=/home/rudraksh/Desktop ; USER=root ; COMMAND=/usr/bin/tail -n 60 /var/log/auth.log
+2026-01-26T12:34:19.954363+05:30 rudraksh-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rudraksh(uid=1000)
